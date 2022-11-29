@@ -313,6 +313,19 @@ header.sticky{
 	gap: 2.5rem;
 	margin-top: 5rem;
 }
+.single{
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	cursor: pointer;
+
+}
+.single img{
+	width: 100%;
+	border-radius: 8px;
+	display: block;
+	transition: transform 0.5s;
+}
 .row{
 	position: relative;
 	overflow: hidden;
@@ -367,6 +380,12 @@ header.sticky{
 	transform: scale(1.1);
 }
 .row:hover .layer{
+	height: 100%;
+}
+.single:hover img{
+	transform: scale(1.1);
+}
+.single:hover .layer{
 	height: 100%;
 }
 
