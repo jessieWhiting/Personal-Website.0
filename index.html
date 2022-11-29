@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	 <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<!----HEADER--->
+	<header class="header">
+		<a href="https://www.linkedin.com/in/jessica-whiting-profile/" class="logo"><span>.Dev</span>eloper</a>
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon">
+			
+		</div>
+	</header>
+
+	<!----MAIN/HOME--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello There</span>
+                <!-- <span class="two"></span> -->
+				
+			</div>
+			<h1>Jessie Whiting</h1>
+			<h3>FullStack .NET<span> Developer.</span></h3>
+			<p> Highly adaptable, detail oriented, .NET Developer with 5+ years of experience in troubleshooting and 3+ years in developing technology.
+				If you've made it this far, you can clearly see that my website is under development! Let me know what you think!
+			</p>
+			<p>This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+			 </p>
+			<div class="button">
+				<a href="mailto:jessienwhiting@gmail.com" class="btn">Say Hello <i class='bx bxs-envelope' ></i></a>
+				<img class ="headshot1" src="C:\Users\jessi\Desktop\Portfolio\JessieWhiting\Images\ME1.jpg">
+			</div>
+		</div>
+	</section>
+
+	<!----ABOUT--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="Images/BG3.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2 class="aboutHeader">About <span>Me</span></h2>
+			<h4>Junior Fullstack Developer</h4>
+			<p>Growing up with a family determined to fix anything broken, I have always had an interest in how things
+				work down to their core. In my past job, I started with a very hands on role. As our company shifted and
+				grew, so did I, stepping back into the world of technology! This was the 
+				catalyst to my rediscovery of this passion and has driven me to work hard and learn, day in and day out!
+			    In my most recent endeavors, I have created over 30 repositories (within a three month time span) on 
+				GitHub.com that showcase my strengths, diversity, and growth. I am truly excited and honored to be on this
+				 journey and can't wait to see where it takes me!
+			 </p> 
+			 <p>This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+			 </p>
+			
+		</div>
+	</section>
+
+	<!----PORTFOLIO--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<h2><span>Latest</span> Projects</h2>
+			<p>Here is a link to my FIRST personal website.</p>
+			<p>This website showcases the growth I have made in a one month time span.</p>
+
+			<p>This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				This is a sentence.This is a sentence.This is a sentence.This is a sentence.
+				If you are interested in more of my work, please view my entire GitHub collection below:
+			 </p>
+			<p>(hover over images to view github projects..)</p>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="Images/BG9.jpg">
+				<div class="layer">
+					<p>Jessie's Github Repository.</p>
+					<a href="https://github.com/jessieWhiting"><i class='bx bxl-github'></i></a>
+				</div>
+			</div>			
+
+		</div>
+	</section>
+
+	<!----CONTACT--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<p>If you have any questions or would like to discuss a career opportunity, please contact me here!</p>
+			<div class="list">
+				<p> Call/Text: (734) 606-9636)</p>
+				<li><a href="mailto:jessienwhiting@gmail.com">Email: jessienwhiting@gmail.com</a></li>
+				<p>Connect on social media: </p>
+			</div>
+
+			<div class="contact-icons">
+                <a href="https://www.linkedin.com/in/jessica-whiting-profile/"><i class='bx bxl-linkedin'></i></a>
+				<a href="https://www.facebook.com/jessienwhiting/"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://discord.gg/JUuT8xdrac"><i class='bx bxl-discord'></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="" placeholder="Your Mobile Number" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="A brief message detailing your request." required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section>
+
+	<!----FOOTER--->
+	<section class="end">
+		<div class="last-text">
+			<p>  2022, Created by: Jessica Whiting.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
