@@ -10,9 +10,9 @@
 }
 /* sets a base root of variables to call. */
 :root{
-    --second-bg-color: #202020;
+    /* --second-bg-color: #202020; */
     --text-color: #fff;
-    --socond-color: rgb(181, 179, 179);
+    --second-color: rgb(181, 179, 179);
     --main-color: #ec873f;
     --big-font: 5rem;
     --h2-font: 3rem;
@@ -418,6 +418,7 @@ header.sticky{
 }
 .list{
 	margin-bottom: 2.8rem;
+	font-size: 22px;
 }
 .list li{
 	margin-bottom: 12px;
